@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Tests" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-03-23T19:23:18" hostname="DESKTOP-KUJQ02C" time="0.114">
+<testsuite name="Tests" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-03-24T04:04:45" hostname="DESKTOP-KUJQ02C" time="0.374">
   <properties/>
-  <testcase name="testJsonDoc" classname="Tests" time="0.064"/>
-  <testcase name="testJSONStructureInDB" classname="Tests" time="0.022"/>
-  <testcase name="testReadingFile" classname="Tests" time="0.007"/>
-  <testcase name="testOtherJSONViaDB" classname="Tests" time="0.012"/>
-  <testcase name="testComputingReviews" classname="Tests" time="0.008"/>
+  <testcase name="testJsonDoc" classname="Tests" time="0.154"/>
+  <testcase name="testJSONStructureInDB" classname="Tests" time="0.124"/>
+  <testcase name="testReadingFile" classname="Tests" time="0.015"/>
+  <testcase name="testOtherJSONViaDB" classname="Tests" time="0.059"/>
+  <testcase name="testComputingReviews" classname="Tests" time="0.02"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

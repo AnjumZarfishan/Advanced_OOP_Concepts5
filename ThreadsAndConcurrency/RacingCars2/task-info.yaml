@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 109
-    length: 57
+    length: 16
     placeholder_text: |-
       /* TODO
       Declare a static ExecutorService named service */
@@ -13,9 +13,9 @@ files:
       offset: 109
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: static ExecutorService service;
-  - offset: 315
+  - offset: 274
     length: 36
     placeholder_text: "/* TODO \nCreate a Runnable with c1*/"
     initial_state:
@@ -23,9 +23,9 @@ files:
       offset: 315
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: new Racer(c1);
-  - offset: 378
+  - offset: 337
     length: 36
     placeholder_text: "/* TODO \nCreate a Runnable with c2*/"
     initial_state:
@@ -33,9 +33,9 @@ files:
       offset: 378
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: new Racer(c2)
-  - offset: 457
+  - offset: 416
     length: 104
     placeholder_text: |-
       /* TODO
@@ -45,12 +45,12 @@ files:
       offset: 457
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       service.submit(racer1);
               service.submit(racer2);
               service.shutdown();
-  - offset: 569
+  - offset: 528
     length: 136
     placeholder_text: |-
       /* TODO
@@ -60,7 +60,7 @@ files:
       offset: 569
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |2-
           public static void initExecutorService(){
               service = Executors.newFixedThreadPool(3);
@@ -102,14 +102,14 @@ files:
   visible: true
   placeholders:
   - offset: 19
-    length: 57
+    length: 19
     placeholder_text: "/* TODO \nThis class is exactly as the Racer from Task 1*/"
     initial_state:
       length: 57
       offset: 19
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       implements Runnable{
           Car c;
@@ -141,7 +141,7 @@ files:
   visible: true
   placeholders:
   - offset: 126
-    length: 66
+    length: 65
     placeholder_text: "/* TODO \nExact same methods and constructor as the Car in\
       \ task 1*/"
     initial_state:
@@ -149,7 +149,7 @@ files:
       offset: 126
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |2
          public Car(String name,double miles){
               this.miles = miles;
@@ -174,5 +174,8 @@ files:
     \    public String name;\n    public double maxMiles;\n\n /* TODO \nExact same\
     \ methods and constructor as the Car in task 1*/\n}\n"
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sat, 26 Mar 2022 23:09:44 UTC
 record: -1
